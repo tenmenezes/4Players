@@ -68,7 +68,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Feito com 💻 por:
 [@tenmenezes](https://github.com/tenmenezes)
 [@Thiago-Rock](https://github.com/Thiago-Rock)
-[@ghost5471](https://github.com/ghost5471)
+[@ClaudinoGomes](https://github.com/ClaudinoGomes)
 [@Bruno-Washington](https://github.com/Bruno-Washington)
 
 Sinta-se à vontade para contribuir, sugerir melhorias ou relatar problemas!
