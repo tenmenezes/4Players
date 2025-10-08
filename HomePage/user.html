@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../transition.css" />
   <title>Configurações do Usuário</title>
   <style>
     body {
@@ -98,6 +99,16 @@
   </style>
 </head>
 <body>
+  <!-- Overlay -->
+    <div class="transicao ativa" id="transition-overlay">
+      <div class="fatia"></div>
+      <div class="fatia"></div>
+      <div class="fatia">
+        <img src="../img/imgProject-Photoroom.png" class="imagem" alt="Logo" />
+      </div>
+      <div class="fatia"></div>
+      <div class="fatia"></div>
+    </div>
   <div class="container" id="config-container">
     <h2>Dados do Usuário</h2>
     <p><strong>Usuário:</strong> <span id="username"></span></p>
@@ -218,5 +229,6 @@
       // normal: nenhuma classe extra
     }
   </script>
+  <script src="../transition.js"></script>
 </body>
 </html>
