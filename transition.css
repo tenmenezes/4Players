@@ -80,3 +80,16 @@
 .transicao.ativa .fatia:nth-child(3) img {
     opacity: 1;
 }
+
+@media (max-width: 1024px) {
+
+    .imagem {
+        position: absolute;
+        min-width: 300px !important;
+    }
+
+    .transicao .fatia:nth-child(3) {
+        overflow: visible;
+        z-index: 9999;
+    }
+}
