@@ -1,3 +1,7 @@
+# 4Players
+
+![4Players Banner](./img/4playersHomePrint.png)
+
 
 # 🕹️ Projeto Site de Vendas de Jogos
 
@@ -25,17 +29,98 @@ Este é um projeto web desenvolvido como parte dos meus estudos em desenvolvimen
 ## 📁 Estrutura de Arquivos
 
 ```
-Projeto-Site-Vendas/
-├── cadastro.html
-├── cadastro.css
-├── cadastro.js
-├── homePage.html
-├── Nintendo.html
-├── Playstation.html
-├── Xbox.html
-├── user.html
-├── testemenu.css
-├── theme.css
+4Players/
+   ├── 📁 Cadastro
+   │   ├── 📁 img
+   │   │   ├── 🖼️ controllerWallpaper.jpg
+   │   │   └── 🖼️ iconGame.png
+   │   ├── 🎨 cadastro.css
+   │   ├── 🌐 cadastro.html
+   │   └── 📄 cadastro.js
+   ├── 📁 HomePage
+   │   ├── 📁 Banner
+   │   │   ├── 🖼️ Banner-Nintendo-Studios.jpg
+   │   │   ├── 🖼️ Banner-PS-Studios.jpg
+   │   │   └── 🖼️ Banner-xbox-Studios.jpg
+   │   ├── 📁 games_nintendo
+   │   │   ├── 🖼️ Earthworm_Jim_Super.jpg
+   │   │   ├── 🖼️ Final_Fight.jpg
+   │   │   ├── 🖼️ Legend_of_Zelda_Breath_of_the_Wild_capa.png
+   │   │   ├── 🖼️ Mario Kart 8 S pass.jpg
+   │   │   ├── 🖼️ Mario_Kart_8_Deluxe.jpg
+   │   │   ├── 🖼️ Super_Mario_64.jpg
+   │   │   ├── 🖼️ Super_Mario_Allstar.jpg
+   │   │   ├── 🖼️ Super_Mario_Party.png
+   │   │   ├── 🖼️ bomberman-generation-17334.jpg
+   │   │   ├── 🖼️ castlevania_dracula_x.jpg
+   │   │   └── 🖼️ the-legend-of-zelda-tears-of-the-kingdom_cover.jpg
+   │   ├── 📁 games_playstation
+   │   │   ├── 🖼️ Fallout76.jpg
+   │   │   ├── 🖼️ Ghost_of_Tsushima_capa.png
+   │   │   ├── 🖼️ GodofWar.jpg
+   │   │   ├── 🖼️ Star_Wars_Jedi_Fallen_Order_capa.png
+   │   │   ├── 🖼️ UntilDawn.jpg
+   │   │   ├── 🖼️ Wildarms.jpg
+   │   │   ├── 🖼️ dinocrisis.jpg
+   │   │   ├── 🖼️ ghost-of-yotei-game-3840x2160-19048.jpg
+   │   │   ├── 🖼️ starwars.jpg
+   │   │   ├── 🖼️ the-alters.jpg
+   │   │   └── 🖼️ thealters.png
+   │   ├── 📁 games_x-box
+   │   │   ├── 🖼️ Dishonored 2.jpg
+   │   │   ├── 🖼️ Doom.jpg
+   │   │   ├── 🖼️ Forza Motorsport 6.jpg
+   │   │   ├── 🖼️ Halo_Infinite_capa.png
+   │   │   ├── 🖼️ Sea-Of-Thieves-Emblema.jpg
+   │   │   ├── 🖼️ dishonored.jpg
+   │   │   ├── 🖼️ doomEternal.jpg
+   │   │   ├── 🖼️ gears of wars.png
+   │   │   ├── 🖼️ senuasSacrifice.jpg
+   │   │   └── 🖼️ senuasSaga.jpg
+   │   ├── 📁 img
+   │   │   ├── 🖼️ LogoNintendo.png
+   │   │   ├── 🖼️ LogoPS.png
+   │   │   ├── 🖼️ capaNint.jpg
+   │   │   ├── 🖼️ capaNint2.jpg
+   │   │   ├── 🖼️ ghost-of-yotei-game-3840x2160-19048.jpg
+   │   │   ├── 🖼️ logoProjeto.png
+   │   │   ├── 🖼️ logoXbox.png
+   │   │   └── 🖼️ user.png
+   │   ├── 🎨 Cart.css
+   │   ├── 🌐 Cart.html
+   │   ├── 📄 Cart.js
+   │   ├── 🌐 Nintendo.html
+   │   ├── 🌐 Playstation.html
+   │   ├── 🌐 Xbox.html
+   │   ├── 🎨 carrossel.css
+   │   ├── 🎨 gamepagestyle.css
+   │   └── 🌐 user.html
+   ├── 📁 Login
+   │   ├── 📁 forgotPassword
+   │   │   ├── 📁 img
+   │   │   │   └── 🖼️ iconGame.png
+   │   │   ├── 🌐 forgotPassword.html
+   │   │   ├── 📄 forgotPassword.js
+   │   │   └── 🎨 forgotPasword.css
+   │   ├── 📁 img
+   │   │   └── 🖼️ user.png
+   │   ├── 🎨 login.css
+   │   ├── 🌐 login.html
+   │   └── 📄 login.js
+   ├── 📁 img
+   │   ├── 🖼️ error.png
+   │   ├── 🖼️ iconGame.png
+   │   ├── 🖼️ imgProject-Photoroom.png
+   │   └── 🖼️ user.png
+   ├── 📁 utils
+   │   └── 📄 utils.js
+   ├── 📝 README.md
+   ├── 🌐 erro.html
+   ├── 🎨 homePage.css
+   ├── 📄 homePage.js
+   ├── 🌐 index.html
+   ├── 🎨 transition.css
+   └── 📄 transition.js
 ```
 
 ## 📦 Como Usar
